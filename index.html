@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+font-awesome/5.15.2/css/all.min.css"/>
+
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="root">
+  <p>TODO App</p>
+  <p class="line"></p>
+    
+  <p>Description</p>
+  <input type="text" name="" id="Description" placeholder="Enter task name" required>
+  <p class="line"></p>
+  <div class="category">
+    <div class="table">
+        <div>
+            <Label>CATEGORY</Label> <br>
+        <select class="drop">
+            <option value="0">Choose a category:</option>
+            <option value="1">work</option>
+            <option value="2">personal</option>
+            <option value="3">school</option>
+            <option value="4">cleaning</option>
+            <option value="5">other</option>
+            </select>
+        </div>
+
+            <div>
+                
+            <label for="">DUE DATE</label> <br>
+            <input class="date" type="date" required>
+            </div>
+           
+    </div>
+    <p class="line"></p>
+  </div>
+ <div class="btn">
+    <div>
+     
+        <button id="btn1" class="button1"> + ADD TASK</button>
+        <button id="btn2" class="button2"> X DELETE TASKS</button>
+    </div>
+   
+ </div>
+ <p class="line1"></p>
+ 
+ <div>
+    <div id="tasks">
+
+    </div>
+
+    
+</div>
+
+
+<!-- <script>
+    function addItem(){
+        var li = document.createElement("LI");  
+        var input = document.getElementById("add");
+        li.innerHTML = input.value;
+        input.value = "";
+
+        document.getElementById("faves").appendChild(li);
+    }
+</script> -->
+
+
+
+    </div>
+  
+
+
+    <script src="index.js"></script>
+</body>
+</html>
